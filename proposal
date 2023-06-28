@@ -1,9 +1,14 @@
 Tetris Game
 
-We built a simple game with login and registration including react hooks styled-components and jsonwebtoken.The goal consists the user be able to login and logout safely and have their highscore on the table according to their performance in the game with different stage columns and shapes.
+We built a simple game with login and registration including react hooks styled-components and jsonwebtoken.The goal consists the user be able to login 
+and logout safely and have their highscore on the table according to their performance in the game tetris.
+Players can complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. 
+The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces.
+The game ends when the uncleared lines reach the top of the playing field. 
+The longer the player can delay this outcome, the higher their score will be.
 
 
 MEMBERS 
 Natalia- responsible for the design, styled components and hook folders.
-Alex- responsible for the server side with the users information, validations cookies and userToken.
+Alex- responsible for the server side with the users information, validations cookies, userToken and functionality the game.
 
